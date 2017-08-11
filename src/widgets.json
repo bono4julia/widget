@@ -1,0 +1,10 @@
+{
+  "widgets": [ {
+      "name": "widget-a"
+    }, {
+      "name": "widget-b"
+    }, {
+      "name": "widget-c"
+    }
+  ]
+}
