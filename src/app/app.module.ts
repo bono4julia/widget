@@ -14,6 +14,8 @@ import { WidgetCComponent } from './widget-c/widget-c.component';
 import { WidgetsBuilderService } from './widget-builder.service';
 import { WidgetsLoaderService } from './widgets-loader.service';
 
+import { ImportService } from './import.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +37,8 @@ import { WidgetsLoaderService } from './widgets-loader.service';
   ],
   providers: [
     WidgetsLoaderService,
-    WidgetsBuilderService
+    WidgetsBuilderService,
+    ImportService
   ],
   bootstrap: [AppComponent]
 })
